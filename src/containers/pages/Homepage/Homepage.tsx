@@ -1,10 +1,15 @@
 import React from 'react';
+import {Wrapper, BackgroundImage, MainHeading, BoldHeading, SmallerHeading, HeadingWrap, Burger, Line} from '../Homepage/style'
 
 const Homepage = () => {
 	return (
-		<div>
-			<p>Welcome back, Arjun Makwana. </p>
-			<p>Hi Arjun, This is your dashboard.</p>
+		<Wrapper>
+			<BackgroundImage/>
+			<HeadingWrap>
+				<MainHeading>Welcome back, <BoldHeading>Arjun Makwana.</BoldHeading> </MainHeading>
+				<SmallerHeading>Hi Arjun, This is your dashboard.</SmallerHeading>
+				<Burger></Burger>
+			</HeadingWrap>
 			<div>
 				<p>Daily Visits</p>
 				<p>+ 3.81%</p>
@@ -29,7 +34,7 @@ const Homepage = () => {
 				<p>07/03</p>
 				<p>14/03</p>
 			</div>
-		</div>
+		</Wrapper>
 	);
 };
 

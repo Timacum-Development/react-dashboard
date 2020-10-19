@@ -7,5 +7,29 @@ export default createGlobalStyle`
 		min-height: 100%;
 		margin: 0;
 		overflow: hidden;
+		font-family: 'Roboto', sans-serif;
+		box-sizing: border-box;
+		font-size: 16px;
 	}
+
+	p {
+		margin: 0;
+	}
+
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-align: left;
+		letter-spacing: 0px;
+	}
+
+	.App {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 `;
