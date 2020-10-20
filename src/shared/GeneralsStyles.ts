@@ -12,10 +12,6 @@ export default createGlobalStyle`
 		font-size: 16px;
 	}
 
-	p {
-		margin: 0;
-	}
-
 	p,
 	h1,
 	h2,
@@ -25,6 +21,7 @@ export default createGlobalStyle`
 	h6 {
 		text-align: left;
 		letter-spacing: 0px;
+		margin: 0;
 	}
 
 	.App {
