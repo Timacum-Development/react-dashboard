@@ -1,5 +1,5 @@
 import React from 'react';
-import { UnorderedList, ListItem, Link, Icon, Arrow } from './style';
+import { UnorderedList, ListItem, Link, Icon, Arrow, IconName } from './style';
 
 // Assets
 import Icon1 from '../../assets/Dashboard Icon.svg';
@@ -15,43 +15,55 @@ const Nav = () => {
 		<UnorderedList>
 			<ListItem>
 				<Link>
-					<Icon src={Icon1} />
-					Dashboard
+					<IconName>
+						<Icon src={Icon1} />
+						Dashboard
+					</IconName>
 					<Arrow src={ArrowImg} />
 				</Link>
 			</ListItem>
 			<ListItem>
 				<Link>
-					<Icon src={Icon2} />
-					Messages
+					<IconName>
+						<Icon src={Icon2} />
+						Messages
+					</IconName>
 					<Arrow src={ArrowImg} />
 				</Link>
 			</ListItem>
 			<ListItem>
 				<Link>
-					<Icon src={Icon3} />
-					Notifications
+					<IconName>
+						<Icon src={Icon3} />
+						Notifications
+					</IconName>
 					<Arrow src={ArrowImg} />
 				</Link>
 			</ListItem>
 			<ListItem>
 				<Link>
-					<Icon src={Icon4} />
-					Favourites
+					<IconName>
+						<Icon src={Icon4} />
+						Favourites
+					</IconName>
 					<Arrow src={ArrowImg} />
 				</Link>
 			</ListItem>
 			<ListItem>
 				<Link>
-					<Icon src={Icon5} />
-					Shopping Cart
+					<IconName>
+						<Icon src={Icon5} />
+						Shopping Cart
+					</IconName>
 					<Arrow src={ArrowImg} />
 				</Link>
 			</ListItem>
 			<ListItem>
 				<Link>
-					<Icon src={Icon6} />
-					My Profile
+					<IconName>
+						<Icon src={Icon6} />
+						My Profile
+					</IconName>
 					<Arrow src={ArrowImg} />
 				</Link>
 			</ListItem>

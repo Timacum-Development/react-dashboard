@@ -12,19 +12,25 @@ export default createGlobalStyle`
 		font-size: 16px;
 	}
 
+	a {
+		text-decoration: none;
+	}
+
 	p,
 	h1,
 	h2,
 	h3,
 	h4,
 	h5,
-	h6 {
+	h6,
+	a {
 		text-align: left;
 		letter-spacing: 0px;
 		margin: 0;
 	}
 
 	.App {
+		height: 100%;
 		display: flex;
 		flex-wrap: wrap;
 	}

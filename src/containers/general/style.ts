@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Z_BLOCK } from 'zlib';
 
 export const UnorderedList = styled.ul`
-    padding: 218px 0 200px;
+		padding: 0;
     margin: 0;
     list-style-type: none;
 }
@@ -36,10 +36,17 @@ export const Link = styled.a`
 	cursor: pointer;
 `;
 
+export const IconName = styled.div`
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+`;
+
 export const Icon = styled.img`
 	display: block;
 	width: 32px;
 	height: 32px;
+	margin-right: 39px;
 `;
 
 export const Arrow = styled.img`

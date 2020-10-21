@@ -1,6 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { HeaderWrap, LogoWrap, User, UserImg, UserName } from '../Header/style';
+import {
+	HeaderWrap,
+	LogoWrap,
+	User,
+	UserImg,
+	UserName,
+	LogoMain,
+	Admin,
+	AdminLink,
+	Navigation,
+} from '../Header/style';
 import { Dots, Dot } from '../../../containers/pages/Homepage/style';
 
 // Assets
@@ -11,12 +21,12 @@ import Avatar from '../../../assets/Avatar.png';
 const Header = () => {
 	return (
 		<HeaderWrap>
-			<nav>
+			<Navigation>
 				<LogoWrap>
-					<NavLink to='/'>
-						<img src={logo} alt='' />
-						Admin Dashboard
-					</NavLink>
+					<AdminLink as={NavLink} to='/'>
+						<LogoMain src={logo} alt='' />
+						<Admin>Admin Dashboard</Admin>
+					</AdminLink>
 				</LogoWrap>
 				<Nav />
 				<User>
@@ -28,7 +38,7 @@ const Header = () => {
 						<Dot />
 					</Dots>
 				</User>
-			</nav>
+			</Navigation>
 		</HeaderWrap>
 	);
 };

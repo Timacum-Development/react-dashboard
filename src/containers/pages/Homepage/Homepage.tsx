@@ -114,11 +114,11 @@ const Homepage = () => {
 							<InfoTxt>Visits</InfoTxt>
 						</Info>
 						<Info>
-							<InfoDot />
+							<InfoDot className='blue' />
 							<InfoTxt>Sales</InfoTxt>
 						</Info>
 						<Info>
-							<InfoDot />
+							<InfoDot className='orange' />
 							<InfoTxt>Earnings</InfoTxt>
 						</Info>
 					</InfoWrap>
@@ -140,7 +140,6 @@ const Homepage = () => {
 					<LargeNumbers>25, 102</LargeNumbers>
 					<LineGraph src={Graph4} />
 					<DateWrap>
-						<Date>25,102</Date>
 						<Date>01/03</Date>
 						<Date>07/03</Date>
 						<Date>14/03</Date>

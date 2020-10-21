@@ -39,7 +39,7 @@ export const SmallerHeading = styled.h2`
 `;
 
 export const HeadingWrap = styled.div`
-	padding: 107px 0 0 134px;
+	padding: 102px 0 0 133px;
 	position: relative;
 `;
 
@@ -69,8 +69,10 @@ export const Line = styled.img`
 `;
 
 export const CardWrapper = styled.div`
+	max-width: 1340px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 	position: relative;
   top: 117px;
   left: 133px;
@@ -78,12 +80,12 @@ export const CardWrapper = styled.div`
 `;
 
 export const SmallCardWrap = styled.div`
-	flex: 1;
-	margin-right: 40px;
+	width: 494px;
+	max-width: 494px;
+	box-sizing: border-box;
 `;
 
 export const SmallCard = styled.div`
-	min-width: 494px;
 	padding: 38px 40px;
 	background: #ffffff 0% 0% no-repeat padding-box;
 	box-shadow: 0px 10px 30px #13171f33;
@@ -97,16 +99,19 @@ export const SmallCard = styled.div`
 `;
 
 export const LargeCard = styled.div`
-	flex: 1;
+	width: 494px;
+	max-width: 494px;
 	padding: 38px 40px;
 	background: #ffffff 0% 0% no-repeat padding-box;
 	box-shadow: 0px 10px 30px #13171f33;
 	border-radius: 20px;
 	opacity: 1;
-	margin-right: 40px;
+	position: relative;
+	box-sizing: border-box;
 
 	&:last-child {
-		margin-right: 0;
+		width: 272px;
+		max-width: 272px;
 	}
 `;
 
@@ -158,7 +163,7 @@ export const SmallText = styled.p`
 	line-height: 1.75125rem;
 	color: #00cd98;
 
-	.red-text {
+	&.red-text {
 		color: #f64000;
 	}
 `;
@@ -178,7 +183,7 @@ export const Wrap = styled.div`
 `;
 
 export const NumbersWrap = styled.div`
-	margin-right: 60px;
+	margin: 0;
 `;
 
 export const Graph = styled.img`
@@ -191,14 +196,13 @@ export const InfoWrap = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-bottom: 45px;
+	margin: 0 37px 45px 0;
 `;
 
 export const Info = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around;
 	width: 32%;
 `;
 
@@ -213,20 +217,30 @@ export const InfoDot = styled.div`
 	height: 13px;
 	background: #6545ba 0% 0% no-repeat padding-box;
 	border-radius: 5px;
+	margin-right: 20px;
+
+	&.blue {
+		background-color: #80c9ff;
+	}
+	&.orange {
+		background-color: #ff8886;
+	}
 `;
 
 export const CircleGraph = styled.img`
 	display: block;
 	width: 306px;
 	height: 305px;
-	transform: rotate(270deg);
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%) rotate(270deg);
 `;
 
 export const LineGraph = styled.img`
 	display: block;
-	width: 100%;
 	height: 229px;
 	position: relative;
+	top: 40px;
 	left: -40px;
 `;
 
@@ -249,7 +263,7 @@ export const Slider = styled.div`
 	background: #eeeff3 0% 0% no-repeat padding-box;
 	border-radius: 3px;
 	position: absolute;
-	bottom: 0;
+	bottom: 69px;
 	left: 133px;
 `;
 
