@@ -39,8 +39,9 @@ export const SmallerHeading = styled.h2`
 `;
 
 export const HeadingWrap = styled.div`
-	padding: 102px 0 0 133px;
+	padding: 90px 0 0 133px;
 	position: relative;
+	margin-bottom: 117px;
 `;
 
 export const Burger = styled.div`
@@ -51,7 +52,7 @@ export const Burger = styled.div`
 	border-radius: 23px;
 	opacity: 1;
 	position: absolute;
-	right: 179px;
+	right: 150px;
 	top: 50%;
 	transform: translateY(50%);display: flex;
   flex-wrap: wrap;
@@ -74,8 +75,8 @@ export const CardWrapper = styled.div`
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	position: relative;
-  top: 117px;
   left: 133px;
+	margin-bottom: 106px;
 }
 `;
 
@@ -262,8 +263,8 @@ export const Slider = styled.div`
 	height: 8px;
 	background: #eeeff3 0% 0% no-repeat padding-box;
 	border-radius: 3px;
-	position: absolute;
-	bottom: 69px;
+	position: relative;
+	top: -35px;
 	left: 133px;
 `;
 

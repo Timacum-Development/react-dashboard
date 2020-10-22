@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderWrap = styled.div`
 	width: 25%;
-	height: 100%;
+	padding-bottom: 18px;
 `;
 
 export const Navigation = styled.section`
@@ -43,8 +43,6 @@ export const User = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	position: relative;
-	bottom: 47px;
 `;
 
 export const UserImg = styled.img`
