@@ -1,11 +1,9 @@
 import styled from 'styled-components';
-import { Z_BLOCK } from 'zlib';
 
 export const UnorderedList = styled.ul`
-		padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
 `;
 
 export const ListItem = styled.li`

@@ -54,12 +54,11 @@ export const Burger = styled.div`
 	position: absolute;
 	right: 150px;
 	top: 50%;
-	transform: translateY(50%);display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
+	transform: translateY(50%);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 `;
 
 export const Line = styled.img`
@@ -75,9 +74,8 @@ export const CardWrapper = styled.div`
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	position: relative;
-  left: 133px;
-	margin-bottom: 106px;
-}
+	left: 133px;
+	margin-bottom: 80px;
 `;
 
 export const SmallCardWrap = styled.div`
@@ -146,10 +144,9 @@ export const SmallestHeading = styled.p`
 
 export const ArrowWrap = styled.div`
 	display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+	flex-wrap: wrap;
+	align-items: center;
 	margin-bottom: 25px;
-}
 `;
 
 export const ArrowIcon = styled.img`

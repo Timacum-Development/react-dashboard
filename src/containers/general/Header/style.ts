@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderWrap = styled.div`
 	width: 25%;
-	padding-bottom: 18px;
+	padding-bottom: 25px;
 `;
 
 export const Navigation = styled.section`
